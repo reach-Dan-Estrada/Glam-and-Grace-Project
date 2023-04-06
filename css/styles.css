@@ -96,7 +96,7 @@ h5 {
 
 h6 {
 	color: #505c67;
-	font-weight: 700;
+	font-weight: 800;
 	font-size: 1rem;
 	font-family: "Raleway";
 	line-height: 1.5rem;
@@ -1303,6 +1303,7 @@ input[type='checkbox'] {
 }
 
 
+
 /*******************/
 /*     Contact     */
 /*******************/
@@ -1408,6 +1409,26 @@ input[type='checkbox'] {
 	color: #e4ebf5;
 }
 
+.footer-col.first {
+	color: #824062;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.footer-col.first input {
+	display: none;
+}
+.footer-col.first input + label {
+	font-size: 30px;
+	text-shadow: 1px 1px #824062;
+	cursor: pointer;
+}
+.footer-col.first input:checked + label ~ label {
+	color: white;
+}
+.footer-col.first label:active {
+	transform: scale(0.8);
+	transition: 0.3s ease;
+}
 
 /*********************/
 /*     Copyright     */
@@ -1453,7 +1474,7 @@ a:hover.back-to-top {
 .ex-header {
 	padding-top: 8.5rem;
 	padding-bottom: 4rem;
-	background: linear-gradient(to bottom right, #fd7114, #f52d6f);
+	background-image: linear-gradient(rgba(255, 255, 255, 0.7),rgba(4, 9, 30, 0.7)), url('../pictures/glam2.jpg');
 }
 
 .ex-header h1 {
@@ -1905,22 +1926,6 @@ a:hover.back-to-top {
 		margin-bottom: 0;
 	}
 	/* end of about */
-
-
-	/* Statistics */
-	.counter #counter .cell {
-		width: 7rem;
-		margin-right: 2.5rem;
-		margin-left: 2.5rem;
-	}
-	
-	.counter #counter .counter-value {
-		font-weight: 700;
-		font-size: 4rem;
-		line-height: 4.5rem;	
-	}
-	/* end of statistics */
-
 
 	/* Team */
 	.basic-5 .card {
