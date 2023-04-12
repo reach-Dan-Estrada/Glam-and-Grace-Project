@@ -8,15 +8,12 @@ Table Of Contents:
 - Statement
 - Services
 - Description
-- Details 1
-- Details 2
 - Pricing
 - Invitation
 - Projects
 - Project Lightboxes
 - Testimonials
 - About
-- Statistics
 - Team
 - Contact
 - Footer
@@ -29,7 +26,7 @@ Table Of Contents:
 /*****************************************
 Colors:
 - Backgrounds - light gray #f9fafc
-- Buttons, icons - orange #824062
+- Buttons, icons - violet #824062
 - Buttons - pink #f83a5e
 - Body text, headings text - dark gray #505c67
 ******************************************/
@@ -1574,19 +1571,6 @@ a:hover.back-to-top {
 	}
 	/* end of statement */
 
-
-	/* Details 1 */
-	.accordion .accordion-container {
-		max-width: 70%;
-	}
-	/* end of details 1 */
-
-
-	/* Details 2 */
-	.tabs .tabs-container {
-		max-width: 70%;
-	}
-
 	.tabs #tab-2 .list-unstyled {
 		display: inline-block;
 		width: 45%;
@@ -1778,12 +1762,6 @@ a:hover.back-to-top {
 	}
 	/* end of description */
 
-
-	/* Details 1 */
-	.accordion {
-		height: 590px;
-	}
-	
 	.accordion .area-1 {
 		height: 100%;
 		width: 50%;
@@ -1808,12 +1786,6 @@ a:hover.back-to-top {
 		width: 85%;
 	}
 	/* end of details 1 */
-
-
-	/* Details 2 */
-	.tabs {
-		height: 668px;
-	}
 
 	.tabs .area-1 {
 		height: 100%;
@@ -2073,29 +2045,6 @@ a:hover.back-to-top {
 		right: -34px;
 	}
 	/* end of description */
-
-
-	/* Details 1 */
-	.accordion .accordion-container {
-		max-width: 476px;
-		margin-left: 5rem;
-		padding-top: 7.75rem;
-	}
-	/* end of details 1 */
-
-
-	/* Details 2 */
-	.tabs .tabs-container {
-		max-width: 476px;
-		margin-right: 5rem;
-		margin-left: auto;
-	}
-
-	.tabs #tab-2 .media-wrapper.first {
-		margin-right: 2rem;
-	}
-	/* end of details 2 */
-
 
 	/* Pricing */
 	.cards-1 .text-container {
